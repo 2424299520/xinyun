@@ -1,0 +1,31 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"black"
+  },
+    "tabBar": {
+      "color": "#8a8a8a",
+      "selectedColor": "#d81e06",
+      "borderStyle": "#f2f2f2",
+      "list": [
+        {
+          "selectedIconPath": "img/home.png",
+          "iconPath": "img/home1.png",
+          "pagePath": "pages/index/index",
+          "text": "发现音乐"
+        },
+        {
+          "selectedIconPath": "img/my.png",
+          "iconPath": "img/my1.png",
+          "pagePath": "pages/my/my",
+          "text": "我的音乐"
+        }
+      ]
+    }
+}
